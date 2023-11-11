@@ -1,121 +1,48 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
-    
-    margin: 0;
-    padding: 0;
-    background-color: ghostwhite;
-
-    
-}
-
-nav {
-    padding: 0;
-    margin: 0;
-}
  
-.nav-con {
-    max-width: 1400px;
-    margin: 0 auto;
-    
-  
-}
-
-nav .nav-con .menu{
-    margin-top: 1.5rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background: rgb(70,121,9);
-    background: linear-gradient(4deg, rgba(70,121,9,1) 7%, rgba(171,244,83,1) 58%, rgba(217,255,0,1) 98%);
-    height: 100px;
-    padding: 1.5rem;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-decoration: none;
+     background: linear-gradient(to right bottom, darkblue, blue, lightblue);
+    
+    
+           
+
    
-    
-
-}
-
-.menu-select {
-    list-style: none;
-    display: grid;
-    font-size: 1.5rem; 
-}
-.about-us{
-    margin: top 4rem ;
-    display: flex;
-}
-.info-con {
-    
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-.info{
-    align-items: center;
-    justify-content: center;
-    display: flex inline-block;
-}
-.main-info {
-    font-size: 1rem;
-    margin-top: 1.5rem ;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    column-gap: 3rem;
-}
-
-.info h4 {
-    display: flex;
-    margin-top: 1.5rem ;
-    font-size: 2.2rem;
-    align-items: center;
-    justify-content:  center;
-    margin-bottom: 2rem;
-}
-
-.Pic-group {
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
-.statics{
-    margin-top: 1rem;   
-}
+button {
+    background :linear-gradient(to right bottom, white, lightblue , rgb(0, 157, 255));
+    color: white;
+    padding: 30px 40px;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: 1.2s;
+    border-color: aqua;
+    box-shadow: 5px;
+    transform: translateX(20px);
 
-.statics-con{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-}
-.statics-con h4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.statics-con p {
-    margin-top: 1.5rem;
-    display: inline block;
-    font-size: 1rem;
-    justify-content: center;
-}
-.gsheets-con{
-    margin-top: 1.5rem;
-   background-color: rgb(116, 116, 116);
-   width: 100%;
+    & a {
+        text-decoration: none;
+    }
+    &:hover{
+        padding: 15px 20px;
+        opacity: 40%;
+        font-size: 12px;
+        color: white;
+        transform: translateX(20px);
+        
+       }
 
-
-}
-.google-sheets {
-    display: flex;
-    margin-top: 1.5rem;
-    background-color: grey;
-    border-radius: 5px;
-    
 }
